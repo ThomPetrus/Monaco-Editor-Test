@@ -1,0 +1,61 @@
+/* Quick styling */
+
+header {
+    margin-bottom: 4.5em;
+}
+
+nav {
+    opacity: 0.85;
+}
+body {
+    overflow: auto;
+    padding-bottom: 10px;
+    background-color:rgba(0, 0, 0, 0.185);
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 1em;
+    height: 180px;
+    clear: both;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.main-header {
+    text-align:center;
+    align-content:center;
+    margin:2em;
+}
+
+.main-btn, #submit-btn {
+    margin-top:2em;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+}
+
+/* Editor behaves weird without fixed width/height */
+#editor-container {
+    width:100%;
+    height:400px;
+    border:1px solid grey;
+    align-content:center;
+}
+
+.error-msg, .success-msg {
+    margin:1.5em;
+}
